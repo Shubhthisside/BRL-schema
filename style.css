@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+justify-content: space-between;
+margin: 1rem;
+align-items: center;
+
+}
+nav img{
+    width: 233px;
+    height: 44px;
+}
+.navbar{
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+}
+.navbar li{
+    list-style: none;
+  
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: #1A579D;
+color: white;
+height: 29px;
+  width:89px ;
+  text-decoration: none;
+  border: 2px solid #1A579D ;
+} 
+.hr{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: black;
+  border:1px solid black ;
+   
+}
+.heads{
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.heads h1{
+    font-weight: 500;
+    font-size: 5rem;
+}
+.h1{
+    height: 180px;
+    width:700px ;
+    font-weight: bold;
+}
+.p{
+    height: 100px;
+    width:628px ; 
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    margin-top: 11rem;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.img{
+    display: flex;
+    gap: 4rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.hr2{
+    margin: 1rem;
+    color: black;
+    border:2px solid black ;
+}
+.content{
+    margin: 1rem;
+    display: flex;
+   justify-content: space-between;
+   margin-top: 4rem;
+}
+.text p{
+    width:552px ;
+    font-size: 3rem;
+    font-weight: bold;
+
+} 
+.text{
+    margin-top: 2rem;
+    height: 2rem;
+}
+.upper{
+    display: flex;
+    gap: 2rem;
+    margin-bottom:1.5rem;
+}
+.upper p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    height: 59px;
+    width:185px ;
+    font-weight: bold;
+}
+.crate{
+    display: flex;
+    flex-direction: column;
+    height:183px;
+    width:306px ;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 0.3rem;
+    
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+.box1,.box2{
+    display: flex;
+    gap: 2rem;
+}
+.top{
+    display: flex;
+    gap: 1rem;
+}
